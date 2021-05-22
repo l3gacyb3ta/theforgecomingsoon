@@ -16,13 +16,14 @@ function genHTML() {
   const backsrc = 'https://doggo.ninja/YMLybm.jpg'
   const message = `WEBSITE
   COMING SOON`.replace("\n", "</span>")
+  const title = 'CrossFit The Forge - Comming Soon'
 
   const html = `
   <!DOCTYPE html>
   <html>
   <head>
   <meta charset="utf-8">
-  <title>BlackFit HTML-5 Template | Comming Soon</title>
+  <title>`+ title +`</title>
   <!-- Stylesheets -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
