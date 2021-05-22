@@ -16,7 +16,7 @@ function genHTML() {
   const backsrc = 'https://doggo.ninja/YMLybm.jpg'
   const message = `WEBSITE
   COMING SOON`.replace("\n", "</span>")
-  const title = 'CrossFit The Forge - Comming Soon'
+  const title = 'CrossFit The Forge'
 
   const html = `
   <!DOCTYPE html>
