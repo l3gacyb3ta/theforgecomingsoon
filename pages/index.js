@@ -27,17 +27,17 @@ async function genHTML() {
 
   // console.log(data)
 
-  const date = data.countdown
+  const date = data.countdown.value
   
-  const logosrc = data.logosmall
+  const logosrc = data.logosmall.value
   
-  const backsrc = data.background
+  const backsrc = data.background.value
   
-  const message = data.welcome_message.replace("\n", "</span>")
+  const message = data.welcome_message.value.replace("\n", "</span>")
   
-  const typeform = data.typeform
+  const typeform = data.typeform.value
 
-  const title = data.title
+  const title = data.title.value
 
   const html = `
   <!DOCTYPE html>
