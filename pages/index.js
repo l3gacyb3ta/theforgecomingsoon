@@ -15,14 +15,13 @@ async function genHTML() {
   // this gets the minified data
   const posts = await getPostData();
 
-  //console.log(posts)
-
   var data = {}
 
   // loads it into an object
   for (const rec in posts) {
     // console.log(posts[rec].fields.value)
-    data[posts[rec].fields.id] = posts[rec].fields.value
+    data[posts[rec].fields.id] = {value: posts[rec].fields.value}
+    data[posts[rec].fields.id].extra = posts[rec].fields.extra
   }
 
   // console.log(data)
