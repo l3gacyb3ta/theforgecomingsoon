@@ -29,6 +29,15 @@
 			
 		}
 	}
+
+	function typeFormHandler() {
+		if($('.typeform-share').length) {
+			var typeform = $('.typeform-share');
+			var span = typeform.find('span.icon');
+			span.text('Contact Us or Join');
+			
+		}
+	}
 	
 	headerStyle();
 	
