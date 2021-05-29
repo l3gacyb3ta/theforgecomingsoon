@@ -35,11 +35,14 @@
 			var typeform = $('.typeform-share');
 			var span = typeform.find('span.icon');
 			span.text('Contact Us or Join');
-			
+			typeform.css({
+				"position": "fixed"
+			})
 		}
 	}
 	
 	headerStyle();
+	typeFormHandler();
 	
 	
 	//Submenu Dropdown Toggle
