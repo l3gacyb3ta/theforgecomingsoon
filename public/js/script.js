@@ -36,7 +36,13 @@
 			var span = typeform.find('span.icon');
 			span.text('Contact Us or Join');
 			typeform.css({
-				"position": "fixed"
+				"position": "relative",
+				"width": "auto",
+				"border-radius": "5px",
+				"background": "#000",
+				"color": "#fff",
+				"margin": "0 auto",
+				"border": "1px solid #fff"
 			})
 		}
 	}
