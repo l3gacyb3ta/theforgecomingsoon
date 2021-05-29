@@ -42,7 +42,8 @@
 				"background": "#000",
 				"color": "#fff",
 				"margin": "0 auto",
-				"border": "1px solid #fff"
+				"border": "1px solid #fff",
+				"max-width": "400px"
 			})
 		}
 	}
