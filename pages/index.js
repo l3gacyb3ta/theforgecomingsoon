@@ -80,6 +80,10 @@ async function genHTML() {
                         <div class="logo"><a href="#"><img src="`+ logosrc + `" alt="logo" title=""></a></div>
                       </div>
                     <h4><span>`+ message + `</h4>
+                    <!--Typeform embed-->
+                    `
+                    + typeform +
+                    `
                       <div class="time-counter"><div class="time-countdown clearfix" data-countdown="`+ date + `"></div></div>
                   </div>
               </div>
@@ -105,10 +109,6 @@ async function genHTML() {
   <script src="js/jquery-ui.js"></script>
   <script src="js/script.js"></script>
 
-  <!--Typeform embed-->
-`
-+ typeform +
-`
   </body>
   </html>`
 

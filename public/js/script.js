@@ -29,8 +29,28 @@
 			
 		}
 	}
+
+	function typeFormHandler() {
+		if($('.typeform-share').length) {
+			var typeform = $('.typeform-share');
+			var span = typeform.find('span.icon');
+			span.text('Contact Us or Join');
+			typeform.css({
+				"position": "relative",
+				"width": "auto",
+				"border-radius": "5px",
+				"background": "#000",
+				"color": "#fff",
+				"margin": "0 auto",
+				"border": "1px solid #fff",
+				"max-width": "400px",
+				"left": "auto"
+			});
+		}
+	}
 	
 	headerStyle();
+	typeFormHandler();
 	
 	
 	//Submenu Dropdown Toggle
